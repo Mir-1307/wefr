@@ -1,0 +1,50 @@
+.accordion {
+    width: 82%;
+    margin: 0 auto;
+    padding: 12px;
+}
+
+.Quetion {
+    background-color: #272727;
+    padding: 100px 0px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 160%;
+    text-transform: uppercase;
+    margin-bottom: 32px;
+    text-align: center;
+    font-family: Benzin, sans-serif;
+    color: #FFFFFF;
+}
+
+.headerBody {
+    background-color: hsla(0, 0%, 100%, .1) !important;
+    border: 0;
+}
+
+.header {
+    height: 84px;
+    align-items: center;
+}
+
+.btnText {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+}
+
+.body {
+    color: #FFFFFF;
+    margin: 0;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: hsla(0, 0%, 100%, .8);
+    font-family: Montserrat, sans-serif;
+    padding: 24px;
+    padding-top: 0;
+}

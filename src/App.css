@@ -11,7 +11,7 @@
 }
 
 .container {
-    max-width: 1740px;
+    max-width: 1740px !important;
     margin: 0 auto;
     padding: 0px 30px;
 }
@@ -78,4 +78,24 @@
     background: #DFDFDF !important;
     cursor: pointer;
     border: none;
+}
+
+.accordion-button {
+    display: flex;
+    align-items: center !important;
+    height: 100% !important;
+    transform: 0.2s ease-in-out;
+    padding: 24px !important;
+}
+
+.accordion-button::after {
+    background-image: url(./assets/icons/Vector.svg) !important;
+    transform: rotate(-135deg);
+    padding-bottom: 0px !important;
+}
+
+.accordion-button:focus {
+    box-shadow: none !important;
+    color: none !important;
+    background-color: transparent !important;
 }

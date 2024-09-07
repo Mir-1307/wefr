@@ -5,16 +5,20 @@ import Composition from "./Composition/Composition";
 import Slide from "./Slide/Slide";
 import StatiSlide from "./statiSlide/StatiSlide";
 import EventSlide from "./eventSlide/eventSlide";
-import FaqActive from "./faqActive/faqActive";
+import FaqActive from "./faqActive/FaqActive";
+import Review from "./review/Review";
+import WhatUn from "./whatune/WhatUn";
 
 
 function Home() {
-  return <div>
+  return <div className={style.home}>
     <Slide/>
+    <WhatUn />
     <About />
     <Composition />
     <StatiSlide />
     <EventSlide />
+    <Review />
     <FaqActive/>
   </div>;
 }
