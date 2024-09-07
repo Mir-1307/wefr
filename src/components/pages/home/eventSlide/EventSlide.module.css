@@ -1,0 +1,16 @@
+.slide {
+    padding-top: 240px !important;
+    padding-bottom: 240px !important;
+}
+
+.bigTitle {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #272727;
+    display: block;
+    margin-bottom: 32px;
+    text-align: center;
+    font-family: Benzin, sans-serif;
+}

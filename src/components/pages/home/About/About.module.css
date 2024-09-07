@@ -1,0 +1,53 @@
+.about {
+    display: flex;
+    padding-top: 105px;
+}
+
+.box {
+    width: 50%;
+}
+
+.title {
+    font-weight: 100;
+    font-size: 32px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #272727;
+    display: block;
+    margin-bottom: 12px;
+    text-align: left;
+    font-family: Benzin, sans-serif;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 200%;
+    color: #525252;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 40px;
+}
+
+.button {
+    padding: 12px 32px;
+    font-family: Montserrat, sans-serif;
+    background: #D6EEBE;
+    color: #272727;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: none;
+    height: auto;
+}
+
+.img {
+    width: 31.6%;
+    height: 440px;
+    margin: 0 auto;
+}
