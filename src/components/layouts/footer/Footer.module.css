@@ -1,0 +1,173 @@
+.btn {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: Montserrat, sans-serif;
+    border: none;
+    height: auto;
+    color: #272727;
+}
+
+.footer {
+    width: 100%;
+    background: #272727;
+}
+
+.footerHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 0px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+}
+
+.headerTitle {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 150%;
+    color: #fff;
+    margin-bottom: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+.footerInputGroup {
+    display: flex;
+    width: 50%;
+    justify-content: end !important;
+}
+
+.footerInput {
+    width: 71.4%;
+    border: 1px solid rgba(60, 60, 60, 1);
+    color: rgba(60, 60, 60, 1);
+    background: transparent;
+    padding: 13px 20px;
+    margin-right: 32px;
+    font-family: Montserrat, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff;
+    height: auto;
+    border-radius: 4px;
+}
+
+
+/* footer body start */
+
+.footerBody {
+    display: flex;
+    padding: 44px 0px;
+    border-bottom: 1px solid hsla(0, 0%, 100%, .2);
+}
+
+.footerContact {
+    padding: 0px 12px;
+    width: 33.8%;
+}
+
+.footerBodyMenu {
+    padding: 0px 12px;
+    width: 33.8%;
+}
+
+.footerBodySocial .ul {
+    display: flex !important;
+    padding: 0;
+    list-style: none;
+}
+
+.ul {
+    padding: 0;
+    list-style: none;
+}
+
+.footerBodyContact .ul .li {
+    display: flex !important;
+    margin-bottom: 32px;
+}
+
+.a {
+    display: block;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Montserrat, sans-serif;
+    transition: all .3s ease-in-out;
+}
+
+.contactInfo {
+    display: flex;
+    align-items: center;
+}
+
+.svg {
+    padding-right: 20px;
+    margin-right: 20px;
+    border-right: 1px solid hsla(0, 0%, 100%, .2);
+}
+
+.tel {
+    width: 40px;
+    height: 40px;
+}
+
+.svgIcon {
+    margin-right: 16px;
+}
+
+.mapDiv {
+    padding: 0px 12px;
+    height: 300px;
+    width: 33.8%;
+}
+
+.menuItem {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #fff;
+    display: block;
+    width: max-content;
+    transition: all .3s ease-in-out;
+    margin-bottom: 24px;
+    font-family: Montserrat, sans-serif;
+    text-decoration: none;
+}
+
+
+/* footer body end */
+
+
+/* footer footer start */
+
+.footerFooter {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.footerLogo {
+    width: 168px;
+    cursor: pointer;
+}
+
+.footerText {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 150%;
+    text-align: right;
+    color: hsla(0, 0%, 100%, .8);
+    font-family: Montserrat, sans-serif;
+}
+
+
+/* footer footer end */

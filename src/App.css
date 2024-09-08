@@ -82,6 +82,7 @@
 
 .accordion-button {
     display: flex;
+    background-color: transparent !important;
     align-items: center !important;
     height: 100% !important;
     transform: 0.2s ease-in-out;
